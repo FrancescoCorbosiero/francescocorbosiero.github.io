@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Esperto in nutrizione per cani
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,7 +25,7 @@ organizations:
     url: https://www.google.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Andrea Bellettati - Andrea Bellettati - Andrea Bellettati
+bio: Andrea Bellettati - Esperto in nutrizione per cani
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -53,8 +53,3 @@ highlight_name: true
 # Author's website URL
 website: ""
 ---
-
-Andrea Bellettati - Andrea Bellettati - Andrea Bellettati - Andrea Bellettati - Andrea Bellettati
-Andrea Bellettati - Andrea Bellettati - Andrea Bellettati - Andrea Bellettati - Andrea Bellettati
-Andrea Bellettati - Andrea Bellettati - Andrea Bellettati - Andrea Bellettati - Andrea Bellettati
-Andrea Bellettati - Andrea Bellettati - Andrea Bellettati - Andrea Bellettati - Andrea Bellettati

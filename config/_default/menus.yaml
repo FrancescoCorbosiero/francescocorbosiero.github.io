@@ -6,15 +6,15 @@ main:
   - name: Home
     url: /#top
     weight: 10
-  - name: Features
+  - name: Ti parlo di me
     url: /#features
     weight: 20
-  - name: Solutions
+  - name: Soluzioni per te
     url: /#solutions
     weight: 30
-  - name: Resources
+  - name: Contatti
     weight: 40
     hasChildren: true
-  - parent: Resources
+  - parent: Il mio Blog!
     name: Blog
     url: blog/

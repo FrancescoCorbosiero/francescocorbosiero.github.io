@@ -10,19 +10,19 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE ESKETIT  🧱
+      title: Alimenta il tuo cane con passione e conoscenza per una vita sana e vigorosa.
+      text: Come esperto di nutrizione canina, mi impegno a fornire piani alimentari personalizzati per soddisfare le esigenze specifiche del tuo cane. La mia esperienza e conoscenza garantiscono una salute ottimale, prevenendo malattie e migliorando il benessere generale del tuo compagno a quattro zampe.
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Prenota una consulenza gratuita!
+        url: https://wa.me/393476780938
         icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
+      #secondary_action:
+      #  text: Contatti
+      #  url: https://wa.me/393476780938
       announcement:
-        text: "Announcing the release of version 1."
+        text: "Consulenze personalizzate e consigli nutrizionali per il benessere del tuo amico a quattro zampe."
         link:
-          text: "Read more"
+          text: "Leggi il mio blog"
           url: "/blog/"
     design:
       spacing:
@@ -34,82 +34,86 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: hero.jpg
           filters:
             brightness: 0.5
   - block: stats
     content:
       items:
-        - statistic: "1M+"
+        - statistic: "10+"
           description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
+            Anni di esperienza  
+            nel settore
+        - statistic: "100+"
           description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
+            Clienti 
+            soddisfattti
+        - statistic: "1k+"
           description: |
-            Discord community  
-            for support
+            Più di mille consulenze 
+            annuali
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
-  - block: features
+  # - block: features
+  #   id: features
+  #   content:
+  #     title: Features
+  #     text: Build your site with blocks 🧱
+  #     items:
+  #       - name: Optimized SEO
+  #         icon: magnifying-glass
+  #         description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
+  #       - name: Fast
+  #         icon: bolt
+  #         description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
+  #       - name: Easy
+  #         icon: sparkles
+  #         description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
+  #       - name: No-Code
+  #         icon: code-bracket
+  #         description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
+  #       - name: Highly Rated
+  #         icon: star
+  #         description: Rated 5-stars by the community.
+  #       - name: Swappable Blocks
+  #         icon: rectangle-group
+  #         description: Build your pages with blocks - no coding required!
+  - block: cta-image-paragraph
     id: features
     content:
-      title: Features
-      text: Build your site with blocks 🧱
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
-  - block: cta-image-paragraph
-    id: solutions
-    content:
-      items:
-        - title: Build your future-proof website
-          text: As easy as 1, 2, 3!
+        - title: Andrea Bellettati
+          text: Esperto in nutrizione per cani
+          feature_icon: check
+          features: 
+          - "Mi chiamo Andrea Bellettati, Educatore Cinofilo. Ho abbandonato gli approcci stereotipati per dare ai cani la libertà di esprimersi.
+        Organizzo giornate che hanno come obiettivo rendere il cane libero di potersi esprimere in contesti naturali in compagnia dei propri umani di riferimento.
+        Grazie alla mia bassotta Athena, inappetente sin dalla nascita, mi sono appassionato di alimentazione e integrazione.
+        Nella mia vita lavorativa ho potuto osservare come una sana e corretta alimentazione e una vita che rispetti le esigenze etologiche dell'animale siano strettamente legate e imprescindibili l'una dall'altra affinchè si possa raggiungere uno stato di benessere.
+        Clicca qui sotto per metterti in contatto con me!"
+          # Upload image to `assets/media/` and reference the filename here
+          image: features-1.png
+          button:
+            text: Prenota una consulenza gratuita!
+            url: https://wa.me/393476780938
+        - title: "La mia Community: Team Branco"
+          text: Se il tuo animale...
           feature_icon: check
           features:
-            - "Future-proof - edit your content in text files"
-            - "Website is generated by a single app, Hugo"
-            - "No JavaScript knowledge required"
+            - "Si rifuta di mangiare (disturbi alimentari)"
+            - "Si gratta senza apparente motivo"
+            - "Fa feci poco formate (senza che sia in corso una patologia)"
+            - "Ha il pelo brutto"
+            - "Manifesta comportamenti psicofisici anomali"
           # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
+          image: features-2.png
           button:
-            text: Get Started
-            url: https://hugoblox.com/templates/
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
-          feature_icon: bolt
-          features:
-            - "Dedicated support channel"
-            - "3,000+ users on Discord"
-            - "Share your site and get feedback"
-          # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
-          button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
+            text: Scopri come aiutarlo!
+            url: https://www.teambranco.com/
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -118,22 +122,22 @@ sections:
       title: ""
       text: ""
       items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
+        - name: "Fra Corbo"
+          role: "Fancazzista"
           # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+          image: "features-1.png"
+          text: "Grazie ai consigli nutrizionali, il mio cane è più energico e in salute che mai. Consiglio assolutamente!"
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
   - block: cta-card
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
+      title: Scopri il piano alimentare perfetto per il tuo cane oggi stesso!
+      text: Ogni cane merita una dieta su misura per una vita sana e felice.
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Prenota una consulenza gratuita!
+        url: https://wa.me/393476780938
     design:
       card:
         # Card background color (CSS class)
